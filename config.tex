@@ -1,0 +1,18 @@
+% Page configuration
+\selectlanguage{french}
+
+% Sections, subsections, etc.
+\renewcommand{\thesection}{\Roman{section}.}
+\renewcommand{\thesubsection}{\Alph{subsection}}
+\renewcommand{\thesubsubsection}{\arabic{subsubsection}.}
+\renewcommand{\theparagraph}{\alph{paragraph}.}
+
+% Page numbers
+\pagenumbering{arabic}
+
+% Lists identation and line height (requires enumitem package)
+\setlength{\parindent}{0cm}
+\setlist{noitemsep}
+
+% pgfplots
+\pgfplotsset{compat=1.16}
